@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
   return (
     <footer id="contact" className="bg-gradient-to-br from-green-800 to-green-900 text-white">
@@ -61,6 +63,16 @@ export default function Footer() {
                   Partners
                 </a>
               </li>
+              <li>
+                <Link to="/privacy-policy" className="text-base text-white/80 hover:text-white transition-colors cursor-pointer">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link to="/account-delete" className="text-base text-white/80 hover:text-white transition-colors cursor-pointer">
+                  Account Delete Request
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -97,9 +109,9 @@ export default function Footer() {
               © 2025 NomaApp. All rights reserved. Protecting African harvests with AI.
             </p>
             <div className="flex items-center gap-6">
-              <a href="#" className="text-sm text-white/70 hover:text-white transition-colors cursor-pointer whitespace-nowrap">
+              <Link to="/privacy-policy" className="text-sm text-white/70 hover:text-white transition-colors cursor-pointer whitespace-nowrap">
                 Privacy Policy
-              </a>
+              </Link>
               <a href="#" className="text-sm text-white/70 hover:text-white transition-colors cursor-pointer whitespace-nowrap">
                 Terms of Service
               </a>

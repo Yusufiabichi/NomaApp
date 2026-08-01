@@ -160,7 +160,7 @@ export default function PrivacyPolicy() {
             a deletion request through our web form instead.
           </p>
           <button
-            onClick={() => navigate('/account/delete-request')}
+            onClick={() => navigate('/account-delete')}
             className="bg-gradient-to-br from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200"
           >
             Go to account deletion request

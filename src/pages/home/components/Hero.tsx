@@ -76,7 +76,7 @@ const stagger = {
                 }`}></i> */}
 
                 <img 
-                  src={isScrolled ? "./nlwa.png" : "./nlc.png"}
+                  src={isScrolled ? "./nomalogo_w.png" : "./nomalogo_g.png"}
                   alt="NomaApp Logo" 
                   className="h-20 w-23 object-contain"
                 />

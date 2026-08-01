@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <img 
-                src="./nlw.png" 
+                src="./nomalogo_w.png" 
                 alt="NomaApp Logo" 
                 className="h-20 w-23 object-contain"
               />

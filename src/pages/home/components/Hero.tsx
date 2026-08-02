@@ -67,16 +67,16 @@ const stagger = {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+            <div className="flex items-center gap-1 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               <div className={`w-10 h-10 flex items-center justify-center rounded-lg ${
-                isScrolled ? 'bg-green-600' : 'bg-white'
+                isScrolled ? 'bg-white' : 'bg-white'
               }`}>
                 {/* <i className={`ri-plant-line text-2xl ${
                   isScrolled ? 'text-white' : 'text-green-600'
                 }`}></i> */}
 
                 <img 
-                  src={isScrolled ? "./nomalogo_w.png" : "./nomalogo_g.png"}
+                  src={isScrolled ? "./nomalogo_g.png" : "./nomalogo_g.png"}
                   alt="NomaApp Logo" 
                   className="h-20 w-23 object-contain"
                 />

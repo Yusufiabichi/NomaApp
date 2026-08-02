@@ -14,7 +14,7 @@ export default function Home() {
       <Problem />
       <Solution />
       <Features />
-      {/* <Impact /> */}
+      <Impact />
       <SDGs />
       <BackToTop />
       <Footer />

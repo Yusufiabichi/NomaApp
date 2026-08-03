@@ -129,8 +129,11 @@ const stagger = {
                 SDGs
               </button>
               <button className="bg-green-600 text-white px-6 py-2.5 rounded-full text-base font-semibold hover:bg-green-700 transition-all whitespace-nowrap cursor-pointer">
+                <a href="https://play.google.com/store/apps/details?id=com.yusufiabichi.mobileapp" target="_blank" rel="noopener noreferrer">  
                 Get the App
+                </a>
               </button>
+
             </div>
 
             {/* Mobile Menu Button */}
@@ -189,7 +192,9 @@ const stagger = {
                   SDGs
                 </button>
                 <button className="w-full bg-green-600 text-white px-6 py-3 rounded-full text-base font-semibold hover:bg-green-700 transition-all whitespace-nowrap cursor-pointer mt-2">
-                  Get the App
+                  <a href="https://play.google.com/store/apps/details?id=com.yusufiabichi.mobileapp" target="_blank" rel="noopener noreferrer">
+                    Get the App
+                  </a>
                 </button>
               </div>
             </div>
@@ -255,7 +260,9 @@ const stagger = {
               className="bg-white text-green-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-50 transition-all shadow-lg hover:shadow-xl whitespace-nowrap cursor-pointer w-full sm:w-auto"
             >
               <i className="ri-download-line mr-2"></i>
+              <a href="https://play.google.com/store/apps/details?id=com.yusufiabichi.mobileapp" target="_blank" rel="noopener noreferrer">
               Get the App
+              </a>
             </motion.button>
           </motion.div>
 

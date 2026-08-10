@@ -57,7 +57,6 @@ const stagger = {
   },
 };
 
-
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Navigation Bar */}
@@ -133,7 +132,6 @@ const stagger = {
                 Get the App
                 </a>
               </button>
-
             </div>
 
             {/* Mobile Menu Button */}

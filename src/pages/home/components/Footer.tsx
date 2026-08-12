@@ -19,17 +19,20 @@ export default function Footer() {
               Empowering African farmers with AI-powered crop disease diagnosis. Detect diseases early, protect your harvest, and improve your livelihood with technology built specifically for African agriculture.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors cursor-pointer">
+              <a href="https://www.facebook.com/share/1E4coz51oP/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors cursor-pointer">
                 <i className="ri-facebook-fill text-xl"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors cursor-pointer">
+              <a href="https://x.com/NomaAppAI" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors cursor-pointer">
                 <i className="ri-twitter-x-fill text-xl"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors cursor-pointer">
+              <a href="https://www.instagram.com/noma_app_ai" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors cursor-pointer">
                 <i className="ri-instagram-fill text-xl"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors cursor-pointer">
+              <a href="https://www.linkedin.com/company/nomaapp-ai/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors cursor-pointer">
                 <i className="ri-linkedin-fill text-xl"></i>
+              </a>
+              <a href="https://www.youtube.com/@nomaappai" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors cursor-pointer">
+                <i className="ri-youtube-fill text-xl"></i>
               </a>
             </div>
           </div>
@@ -82,13 +85,13 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <i className="ri-mail-line text-xl mt-0.5 flex-shrink-0"></i>
-                <a href="mailto:info@nomaapp.com" className="text-base text-white/80 hover:text-white transition-colors cursor-pointer">
-                  info@nomaapp.com.ng
+                <a href="mailto:yusufia@nomaapp.com.ng" className="text-base text-white/80 hover:text-white transition-colors cursor-pointer">
+                  yusufia@nomaapp.com.ng
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <i className="ri-phone-line text-xl mt-0.5 flex-shrink-0"></i>
-                <a href="tel:+234" className="text-base text-white/80 hover:text-white transition-colors cursor-pointer">
+                <a href="tel:+2347068538000" className="text-base text-white/80 hover:text-white transition-colors cursor-pointer">
                   +234 7068538000
                 </a>
               </li>

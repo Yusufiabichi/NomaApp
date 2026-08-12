@@ -111,14 +111,14 @@ const stagger = {
               >
                 Features
               </button>
-              <button 
+              {/* <button 
                 onClick={() => scrollToSection('impact')}
                 className={`text-base font-medium transition-colors cursor-pointer whitespace-nowrap ${
                   isScrolled ? 'text-gray-700 hover:text-green-600' : 'text-white hover:text-green-300'
                 }`}
               >
                 Impact
-              </button>
+              </button> */}
               <button 
                 onClick={() => scrollToSection('sdgs')}
                 className={`text-base font-medium transition-colors cursor-pointer whitespace-nowrap ${

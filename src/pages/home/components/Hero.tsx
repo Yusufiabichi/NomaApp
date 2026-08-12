@@ -248,7 +248,9 @@ const stagger = {
               className="bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-green-700 transition-all shadow-lg hover:shadow-xl whitespace-nowrap cursor-pointer w-full sm:w-auto"
             >
               <i className="ri-camera-line mr-2"></i>
-              Scan a Crop
+              <a href="https://app.nomaapp.com.ng">
+                Scan a Crop
+              </a>
             </motion.button>
 
             <motion.button
